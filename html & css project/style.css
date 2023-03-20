@@ -1,0 +1,402 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Avenir", sans-serif;
+}
+
+.navbar-section {
+  background-color: #242222;
+  justify-content: space-between;
+  padding: 5px 35px 5px 35px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 64px;
+  height: auto;
+  display: inline;
+  cursor: pointer;
+}
+.nav-menu {
+  align-self: center;
+}
+.nav-menu ul {
+  list-style-type: none;
+  justify-self: center;
+}
+.nav-menu li {
+  display: inline;
+  color: #ffffff;
+  margin: 0 15px 0 15px;
+}
+.nav-menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffff;
+  font-size: 18px;
+}
+.nav-menu li a:hover {
+  color: #ff6309;
+}
+.nav-menu li a:active {
+  color: #ff6309;
+}
+.search-icon {
+  display: flex;
+}
+.search-icon img {
+  justify-self: center;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+.first-section {
+  background-image: url("./resources/images/dance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  margin: 0px;
+  padding: 0px;
+}
+.fade {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.register-section {
+  margin-top: 80px;
+  margin-left: 30px;
+  padding: 50px;
+}
+.register-section h1 {
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.register-section p {
+  color: #ffffff;
+  width: 400px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #b095cc;
+  color: #b095cc;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.btn:hover {
+  color: white;
+  background-color: #b095cc;
+  cursor: pointer;
+}
+/*Second section*/
+.second-section {
+  background-image: linear-gradient(#000, #05101f);
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.second-section h1 {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.second-section p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+.countries-section {
+  margin: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.country-box {
+  width: 350px;
+  background-color: #699f91;
+  border-radius: 10px;
+  height: 400px;
+}
+.country-box-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.america-image {
+  background-image: url("./resources/images/dance.jpg");
+}
+.australia-image {
+  background-image: url("./resources/images/dance.jpg");
+}
+.asia-image {
+  background-image: url("./resources/images/dance.jpg");
+}
+
+.country-box .text {
+  padding: 20px;
+}
+.country-box h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+/* Third section*/
+.third-section {
+  background-color: hsl(192, 33%, 47%);
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  align-items: center;
+}
+.third-section h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+}
+.third-section p {
+  color: #fff;
+  text-align: center;
+}
+.pricing-section {
+  display: flex;
+  margin: 25px 50px;
+  justify-content: space-between;
+}
+.price-box {
+  background-color: #4d4d53;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 360px;
+  padding: 20px 0px;
+}
+.price-box h2 {
+  color: #fff;
+}
+
+.price-box img {
+  width: 128px;
+}
+.price-box p {
+  text-align: center;
+}
+.price-box .btn {
+  width: 30%;
+}
+
+/*Fourth section*/
+
+.fourth-section {
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  height: 550px;
+}
+.half-screen-image {
+  width: 50%;
+  background-image: url("./resources/images/dance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.half-screen-content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: #05101f;
+}
+.half-screen-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 20px 50px;
+}
+.half-screen-content h1 {
+  color: white;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.half-screen-content p {
+  color: white;
+  font-size: 16px;
+  width: 350px;
+}
+.fifth-section {
+  width: 100%;
+  height: 550px;
+  background-color: hsl(192, 33%, 47%);
+  padding-top: 80px;
+  padding-bottom: 50px;
+  height: 400px;
+}
+.fifth-section h1 {
+  font-size: 45px;
+  color: #fff;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.fifth-section p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.statistics-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 110px 50px;
+}
+.statistics-content p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/*sixth-section*/
+
+.sixth-section {
+  width: 100%;
+  height: 500px;
+  background-color: #001219;
+  background-image: url("./resources/images/dance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.sixth-section .fade {
+  background-color: rgba(184, 148, 212, 0.6);
+  flex-direction: column;
+  justify-content: center;
+}
+.sixth-section p {
+  font-size: 20px;
+  color: #fff;
+}
+.sixth-section h1 {
+  font-size: 45px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.seventh-section {
+  background-color: #05101f;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.seventh-section h1 {
+  margin-top: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.seventh-section p {
+  color: #fff;
+  font-size: 16px;
+  width: 600px;
+  text-align: center;
+}
+.email-input {
+  padding: 15px;
+}
+.btn-reverse:hover {
+  color: #b095cc;
+  background-color: white;
+}
+.btn-reverse {
+  color: white;
+  background-color: #b095cc;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid;
+  border-color: #b095cc;
+}
+
+/*footer*/
+.footer {
+  background-color: #699f91;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+.footer h1 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.footer p {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.footer-left {
+  padding-left: 20px;
+  width: 50%;
+}
+.social-icons {
+  display: flex;
+  height: 100px;
+  width: 170px;
+  justify-content: space-between;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 10px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.instagram {
+  background-image: url("./resources/images/instagram.png");
+}
+.facebook {
+  background-image: url("./resources/images/facebook.png");
+}
+.twitter {
+  background-image: url("./resources/images/twitter.png");
+}
+.whatsapp {
+  background-image: url("./resources/images/whatsapp.png");
+}
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  width: 50%;
+}
